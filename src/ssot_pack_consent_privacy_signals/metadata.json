@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "ssot_package_name": "ssot-pack-consent-privacy-signals",
+  "origin": {
+    "id": "pack:consent-privacy-signals",
+    "package_name": "ssot-pack-consent-privacy-signals",
+    "import_name": "ssot_pack_consent_privacy_signals",
+    "kind": "governance-pack",
+    "title": "Consent And Privacy Signal Exchange",
+    "description": "Installable SSOT governance pack for GPC, GPP, TCF, Consent Mode, DNT, and consent-signal precedence.",
+    "homepage": "https://github.com/groupsum/consent-privacy-signals-governance-pack",
+    "repository": "https://github.com/groupsum/consent-privacy-signals-governance-pack"
+  },
+  "compatibility": {
+    "python": ">=3.10,<3.15",
+    "ssot_registry_schema": ">=0.4.0",
+    "ssot_pack_contract": ">=0.2.17,<0.3.0"
+  },
+  "trust": {
+    "trusted_by_default": false,
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-consent-privacy-signals"
+  },
+  "documents": {
+    "adr": {
+      "manifest_path": "templates/adr/manifest.json"
+    },
+    "spec": {
+      "manifest_path": "templates/specs/manifest.json"
+    }
+  }
+}

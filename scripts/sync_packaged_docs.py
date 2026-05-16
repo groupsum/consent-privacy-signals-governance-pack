@@ -11,9 +11,9 @@ except ModuleNotFoundError:  # pragma: no cover
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ADR_TEMPLATES = ROOT / "src" / "ssot_registry_pack_template" / "templates" / "adr"
-SPEC_TEMPLATES = ROOT / "src" / "ssot_registry_pack_template" / "templates" / "specs"
-RESERVATION_OWNER = "extension-pack:ssot-registry-pack-template"
+ADR_TEMPLATES = ROOT / "src" / "ssot_pack_consent_privacy_signals" / "templates" / "adr"
+SPEC_TEMPLATES = ROOT / "src" / "ssot_pack_consent_privacy_signals" / "templates" / "specs"
+RESERVATION_OWNER = "extension-pack:ssot-pack-consent-privacy-signals"
 MINIMUM_SCHEMA_VERSION = "0.4.0"
 
 

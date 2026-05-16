@@ -1,0 +1,38 @@
+[
+  {
+    "id": "adr:consent-signal-boundary",
+    "number": 1001,
+    "slug": "consent-signal-boundary",
+    "title": "Consent Signal Boundary",
+    "filename": "ADR-1001-consent-signal-boundary.yaml",
+    "target_path": ".ssot/adr/ADR-1001-consent-signal-boundary.yaml",
+    "sha256": "2fdb8cd24b3efa53854b82742b8a3c9b82d786a43c79d401a7a2df7caaccbbc4",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-consent-privacy-signals",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  },
+  {
+    "id": "adr:gpc-gpp-tcf-consent-precedence",
+    "number": 1002,
+    "slug": "gpc-gpp-tcf-consent-precedence",
+    "title": "GPC GPP TCF Consent Precedence",
+    "filename": "ADR-1002-gpc-gpp-tcf-consent-precedence.yaml",
+    "target_path": ".ssot/adr/ADR-1002-gpc-gpp-tcf-consent-precedence.yaml",
+    "sha256": "fee41e7799274f1eb7439953e06abcf3e2432edad44e32502bcf8c1a4c76207e",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-consent-privacy-signals",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  }
+]

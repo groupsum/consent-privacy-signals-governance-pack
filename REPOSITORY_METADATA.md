@@ -2,4 +2,4 @@
 
 Suggested GitHub description:
 
-> Template for installable SSOT Registry governance packs with packaged ADRs, SPECs, manifests, tests, and release-ready Python packaging.
+> Installable SSOT governance pack for GPC, GPP, TCF, Consent Mode, DNT, and consent-signal precedence.
