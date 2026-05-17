@@ -1,0 +1,36 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1001"
+number: 1001
+slug: "consent-privacy-signals-domain-boundary"
+title: "Consent Privacy Signals Domain Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository curates authority sources for consent and privacy signal exchange. The authority set includes Global Privacy Control, IAB Global Privacy Platform, IAB Europe Transparency and Consent Framework, Google Consent Mode, W3C Tracking Preference Expression / Do Not Track, and IAB accountability materials."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  This repository curates authority sources for consent and privacy signal exchange. The authority set includes Global Privacy Control, IAB Global Privacy Platform, IAB Europe Transparency and Consent Framework, Google Consent Mode, W3C Tracking Preference Expression / Do Not Track, and IAB accountability materials.
+  
+  Consent and privacy signals are transmitted and evaluated differently depending on source family. Some are browser/user-agent preference signals, some are encoded consent strings, some are tag consent-state APIs, and some are accountability or audit-oriented materials.
+  
+  ## Decision
+  
+  The pack-local domain boundary is consent and privacy signal source curation. It includes authority targets for GPC, DNT, IAB GPP, IAB TCF, Google Consent Mode, consent-signal precedence, signal evidence, and jurisdiction applicability.
+  
+  The boundary excludes privacy governance records, consent receipt storage, privacy notices, data processing records, analytics events, advertising supply-chain transparency, and customer profile records except where a listed authority directly governs a signal exchanged or evaluated at runtime.
+  
+  ## Authority Sources
+  
+  - Global Privacy Control.
+  - IAB Tech Lab Global Privacy Platform.
+  - IAB Europe Transparency and Consent Framework.
+  - Google Consent Mode.
+  - W3C Tracking Preference Expression / Do Not Track.
+  - IAB Accountability Platform.

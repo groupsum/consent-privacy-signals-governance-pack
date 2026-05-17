@@ -1,0 +1,24 @@
+{
+  "id": "adr:iab-gpp-policy",
+  "number": 1004,
+  "slug": "iab-gpp-policy",
+  "title": "IAB GPP Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "IAB Global Privacy Platform defines an encoded privacy string framework with sections for jurisdiction-specific privacy signals.",
+    "GPP strings can carry multiple sections and require decoding before evaluation."
+  ],
+  "decision": [
+    "Use IAB GPP when a downstream system receives, stores, decodes, validates, or evaluates GPP strings.",
+    "Preserve GPP string, version, section identity, decoded fields, jurisdiction applicability, and evaluation outcome where used."
+  ],
+  "authority_sources": [
+    "IAB Tech Lab Global Privacy Platform"
+  ],
+  "consequences": [
+    "GPP string handling must include validation and section-aware evaluation.",
+    "GPP-derived outcomes must remain distinguishable from GPC, TCF, DNT, and Google Consent Mode outcomes."
+  ]
+}

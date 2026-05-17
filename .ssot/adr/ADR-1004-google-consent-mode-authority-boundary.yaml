@@ -1,0 +1,27 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1004"
+number: 1004
+slug: "google-consent-mode-authority-boundary"
+title: "Google Consent Mode Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Google Consent Mode defines consent-state keys and default/update behavior used by Google tags and related measurement surfaces."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Google Consent Mode defines consent-state keys and default/update behavior used by Google tags and related measurement surfaces.
+  
+  ## Decision
+  
+  Google Consent Mode source curation covers tag consent-state targets such as storage consent, analytics storage consent, ad user data consent, ad personalization consent, default initialization, and runtime update behavior. Google Consent Mode targets must remain separate from legal consent records and IAB encoded-string authority unless explicit translation rules are curated.
+  
+  ## Authority Sources
+  
+  - Google Consent Mode.

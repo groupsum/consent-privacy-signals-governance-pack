@@ -1,0 +1,29 @@
+{
+  "id": "adr:consent-signal-source-policy",
+  "number": 1001,
+  "slug": "consent-signal-source-policy",
+  "title": "Consent Signal Source Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Consent and privacy signal handling can involve browser preference signals, encoded privacy strings, consent-state APIs, and accountability evidence.",
+    "These source families carry different semantics and should not be merged without a documented source policy."
+  ],
+  "decision": [
+    "Adopt an explicit consent signal source policy before treating a received privacy or consent signal as authoritative.",
+    "Classify each governed signal by source family: GPC, DNT, IAB GPP, IAB TCF, Google Consent Mode, or accountability evidence."
+  ],
+  "authority_sources": [
+    "Global Privacy Control",
+    "W3C Tracking Preference Expression / Do Not Track",
+    "IAB Tech Lab Global Privacy Platform",
+    "IAB Europe Transparency and Consent Framework",
+    "Google Consent Mode",
+    "IAB Accountability Platform"
+  ],
+  "consequences": [
+    "Signal records must preserve enough source context to distinguish preference signals, consent strings, tag consent states, and evaluated outcomes.",
+    "Conflicts between sources require documented precedence or reconciliation rules."
+  ]
+}

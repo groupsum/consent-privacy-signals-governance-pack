@@ -1,0 +1,24 @@
+{
+  "id": "adr:google-consent-mode-policy",
+  "number": 1006,
+  "slug": "google-consent-mode-policy",
+  "title": "Google Consent Mode Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Google Consent Mode defines consent-state keys used by Google tags and related measurement systems.",
+    "Consent Mode state can be initialized by defaults and changed by runtime updates."
+  ],
+  "decision": [
+    "Use Google Consent Mode when a downstream system controls Google tag behavior through Consent Mode state.",
+    "Preserve default state, update state, timestamp, source signal, and consent-state keys such as ad_storage, analytics_storage, ad_user_data, and ad_personalization where used."
+  ],
+  "authority_sources": [
+    "Google Consent Mode"
+  ],
+  "consequences": [
+    "Google tag consent-state behavior must be testable independently of legal consent-record storage.",
+    "Consent Mode translations from other signal sources require explicit mapping rules."
+  ]
+}

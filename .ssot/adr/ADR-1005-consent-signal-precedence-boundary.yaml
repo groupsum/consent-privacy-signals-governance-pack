@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1005"
+number: 1005
+slug: "consent-signal-precedence-boundary"
+title: "Consent Signal Precedence Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Systems can receive multiple consent and privacy signals for the same request, session, user, device, region, vendor, purpose, or tag behavior. Signals can conflict or apply at different layers."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Systems can receive multiple consent and privacy signals for the same request, session, user, device, region, vendor, purpose, or tag behavior. Signals can conflict or apply at different layers.
+  
+  ## Decision
+  
+  Consent-signal precedence curation covers target rules for resolving conflicts among GPC, DNT, GPP, TCF, Google Consent Mode, and accountability evidence. Precedence targets must distinguish source receipt from evaluated outcome and must not silently convert one authority family into another.
+  
+  ## Authority Sources
+  
+  - Global Privacy Control.
+  - W3C Tracking Preference Expression / Do Not Track.
+  - IAB Tech Lab Global Privacy Platform.
+  - IAB Europe Transparency and Consent Framework.
+  - Google Consent Mode.
+  - IAB Accountability Platform.

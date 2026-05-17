@@ -1,0 +1,27 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1002"
+number: 1002
+slug: "global-privacy-control-authority-boundary"
+title: "Global Privacy Control Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Global Privacy Control defines a user privacy preference signal communicated by browsers, user agents, or other agents. It can appear through HTTP request signals and browser JavaScript surfaces."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  Global Privacy Control defines a user privacy preference signal communicated by browsers, user agents, or other agents. It can appear through HTTP request signals and browser JavaScript surfaces.
+  
+  ## Decision
+  
+  GPC source curation covers user preference signal semantics, transmission surfaces, receipt behavior, and evaluation targets. GPC targets must remain separate from encoded consent strings, Google tag consent-state APIs, legacy DNT handling, and privacy-governance record storage unless explicit downstream mappings are documented.
+  
+  ## Authority Sources
+  
+  - Global Privacy Control.

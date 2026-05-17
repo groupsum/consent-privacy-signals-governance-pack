@@ -28,8 +28,16 @@ Consent And Privacy Signal Exchange
 
 ## Included ADRs
 
-- `adr:consent-signal-boundary` - Consent Signal Boundary
-- `adr:gpc-gpp-tcf-consent-precedence` - GPC GPP TCF Consent Precedence
+- `adr:consent-signal-source-policy` - Consent Signal Source Policy
+- `adr:gpc-signal-policy` - GPC Signal Policy
+- `adr:dnt-signal-policy` - DNT Signal Policy
+- `adr:iab-gpp-policy` - IAB GPP Policy
+- `adr:iab-tcf-policy` - IAB TCF Policy
+- `adr:google-consent-mode-policy` - Google Consent Mode Policy
+- `adr:consent-default-update-policy` - Consent Default Update Policy
+- `adr:consent-precedence-policy` - Consent Precedence Policy
+- `adr:consent-signal-evidence-policy` - Consent Signal Evidence Policy
+- `adr:consent-signal-jurisdiction-policy` - Consent Signal Jurisdiction Policy
 
 ## Included SPECs
 

@@ -1,0 +1,24 @@
+{
+  "id": "adr:iab-tcf-policy",
+  "number": 1005,
+  "slug": "iab-tcf-policy",
+  "title": "IAB TCF Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "IAB Europe Transparency and Consent Framework defines encoded consent-string semantics for purposes, vendors, legitimate interest, special purposes, and special features.",
+    "TCF evaluation affects purpose/vendor consent decisions and may coexist with other privacy signals."
+  ],
+  "decision": [
+    "Use IAB TCF when a downstream system receives, stores, decodes, validates, or evaluates TCF strings.",
+    "Preserve purpose, vendor, legitimate interest, special purpose, special feature, version, and vendor-list context where applicable."
+  ],
+  "authority_sources": [
+    "IAB Europe Transparency and Consent Framework"
+  ],
+  "consequences": [
+    "TCF evaluation must be purpose-aware and vendor-aware.",
+    "TCF-derived consent states must not be flattened into generic consent without retaining framework context."
+  ]
+}

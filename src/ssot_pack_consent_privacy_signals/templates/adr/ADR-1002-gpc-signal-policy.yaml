@@ -1,0 +1,24 @@
+{
+  "id": "adr:gpc-signal-policy",
+  "number": 1002,
+  "slug": "gpc-signal-policy",
+  "title": "GPC Signal Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Global Privacy Control communicates a user privacy preference through browser, user-agent, HTTP, or JavaScript surfaces.",
+    "GPC can affect downstream sale, sharing, targeted advertising, and preference evaluation behavior depending on policy and jurisdiction."
+  ],
+  "decision": [
+    "Use GPC as an authority for global privacy preference handling when a downstream system receives or evaluates GPC signals.",
+    "Preserve receipt surface, signal value, timestamp, jurisdiction context, and evaluated outcome when GPC affects downstream behavior."
+  ],
+  "authority_sources": [
+    "Global Privacy Control"
+  ],
+  "consequences": [
+    "GPC handling must be testable at request and browser surfaces where supported.",
+    "GPC evaluation must remain distinguishable from encoded consent string evaluation and Google tag consent-state updates."
+  ]
+}

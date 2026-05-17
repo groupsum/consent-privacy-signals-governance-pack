@@ -1,0 +1,27 @@
+{
+  "id": "adr:consent-default-update-policy",
+  "number": 1007,
+  "slug": "consent-default-update-policy",
+  "title": "Consent Default Update Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Consent and privacy signal systems often distinguish initial defaults from later updates.",
+    "Incorrect default or update ordering can cause tags, vendors, or processing logic to act on stale consent state."
+  ],
+  "decision": [
+    "Document default consent state, update rules, and timing behavior for consent-state surfaces.",
+    "Preserve whether an evaluated state came from initialization, runtime update, decoded string, preference signal, or manual override."
+  ],
+  "authority_sources": [
+    "Google Consent Mode",
+    "IAB Tech Lab Global Privacy Platform",
+    "IAB Europe Transparency and Consent Framework",
+    "Global Privacy Control"
+  ],
+  "consequences": [
+    "Consent-state transitions become auditable and testable.",
+    "Downstream systems can prevent stale defaults from overriding later stronger signals."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "adr:dnt-signal-policy",
+  "number": 1003,
+  "slug": "dnt-signal-policy",
+  "title": "DNT Signal Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "W3C Tracking Preference Expression / Do Not Track defines a legacy tracking preference signal.",
+    "Some downstream systems may still receive DNT signals even when newer preference signals or consent strings are also present."
+  ],
+  "decision": [
+    "Document whether DNT signals are accepted, ignored, logged, or evaluated by downstream systems.",
+    "Keep DNT handling separate from GPC, IAB consent strings, and Google Consent Mode unless explicit precedence rules apply."
+  ],
+  "authority_sources": [
+    "W3C Tracking Preference Expression / Do Not Track"
+  ],
+  "consequences": [
+    "DNT behavior is visible and testable rather than implicit.",
+    "Legacy signal handling can be retired or retained without changing newer signal authorities."
+  ]
+}

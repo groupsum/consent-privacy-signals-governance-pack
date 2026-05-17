@@ -1,0 +1,27 @@
+{
+  "id": "adr:consent-signal-jurisdiction-policy",
+  "number": 1010,
+  "slug": "consent-signal-jurisdiction-policy",
+  "title": "Consent Signal Jurisdiction Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Consent and privacy signal applicability can depend on region, jurisdiction, framework section, vendor scope, purpose, browser context, and user state.",
+    "Jurisdiction handling affects which signals are evaluated and which outcomes control downstream behavior."
+  ],
+  "decision": [
+    "Document jurisdiction or regional applicability for each governed consent or privacy signal.",
+    "Preserve selected jurisdiction, applicable framework section, purpose/vendor scope, and fallback behavior where those values affect evaluation."
+  ],
+  "authority_sources": [
+    "IAB Tech Lab Global Privacy Platform",
+    "IAB Europe Transparency and Consent Framework",
+    "Global Privacy Control",
+    "Google Consent Mode"
+  ],
+  "consequences": [
+    "Signal evaluation is region-aware where required.",
+    "Downstream systems can test fallback behavior when jurisdiction or section applicability is absent or ambiguous."
+  ]
+}
