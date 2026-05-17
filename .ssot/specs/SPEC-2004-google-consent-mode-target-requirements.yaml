@@ -1,0 +1,31 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2004"
+number: 2004
+slug: "google-consent-mode-target-requirements"
+title: "Google Consent Mode Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating Google Consent Mode targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating Google Consent Mode targets.
+  
+  ## Requirements
+  
+  - Google Consent Mode targets MUST identify consent-state keys, default initialization behavior, runtime update behavior, timing, and source signal where applicable.
+  - Google Consent Mode targets SHOULD distinguish ad storage, analytics storage, ad user data, and ad personalization consent-state fields.
+  - Consent Mode targets MUST remain separate from legal consent records and IAB encoded-string targets unless explicit translation rules are curated.
+  - Consent Mode targets MUST preserve default and update behavior separately so stale defaults cannot silently override later updates.
+  
+  ## Authority Sources
+  
+  - Google Consent Mode.
+spec_kind: "normative"

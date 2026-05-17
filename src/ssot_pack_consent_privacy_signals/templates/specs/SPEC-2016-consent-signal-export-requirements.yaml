@@ -1,0 +1,26 @@
+{
+  "id": "spc:consent-signal-export-requirements",
+  "number": 2016,
+  "slug": "consent-signal-export-requirements",
+  "title": "Consent Signal Export Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:consent-signal-evidence-policy",
+    "adr:consent-precedence-policy"
+  ],
+  "authority_sources": [
+    "IAB Accountability Platform",
+    "Global Privacy Control",
+    "IAB Tech Lab Global Privacy Platform",
+    "IAB Europe Transparency and Consent Framework",
+    "Google Consent Mode"
+  ],
+  "requirements": [
+    "Export evaluated consent state with source signal references and evaluation timestamps where applicable.",
+    "Preserve enough trace data to explain how source signals produced the exported state.",
+    "Do not export a collapsed consent state without source-family and precedence context when multiple signals contributed."
+  ]
+}

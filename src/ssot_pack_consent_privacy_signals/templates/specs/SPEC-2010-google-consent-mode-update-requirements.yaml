@@ -1,0 +1,22 @@
+{
+  "id": "spc:google-consent-mode-update-requirements",
+  "number": 2010,
+  "slug": "google-consent-mode-update-requirements",
+  "title": "Google Consent Mode Update Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:google-consent-mode-policy",
+    "adr:consent-default-update-policy"
+  ],
+  "authority_sources": [
+    "Google Consent Mode"
+  ],
+  "requirements": [
+    "Preserve runtime Consent Mode updates separately from defaults.",
+    "Record update source, update time, changed consent-state keys, and resulting state.",
+    "Define behavior when updates conflict with GPC, GPP, TCF, DNT, or manual controls."
+  ]
+}

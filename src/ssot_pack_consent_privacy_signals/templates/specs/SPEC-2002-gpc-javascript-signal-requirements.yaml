@@ -1,0 +1,21 @@
+{
+  "id": "spc:gpc-javascript-signal-requirements",
+  "number": 2002,
+  "slug": "gpc-javascript-signal-requirements",
+  "title": "GPC JavaScript Signal Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:gpc-signal-policy"
+  ],
+  "authority_sources": [
+    "Global Privacy Control"
+  ],
+  "requirements": [
+    "Detect and preserve GPC browser JavaScript signal access where supported.",
+    "Record signal value, browser context, observation time, and evaluated outcome when the JavaScript signal affects behavior.",
+    "Document fallback behavior when JavaScript access and request-surface receipt disagree or one surface is absent."
+  ]
+}

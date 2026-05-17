@@ -1,0 +1,21 @@
+{
+  "id": "spc:dnt-signal-requirements",
+  "number": 2003,
+  "slug": "dnt-signal-requirements",
+  "title": "DNT Signal Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:dnt-signal-policy"
+  ],
+  "authority_sources": [
+    "W3C Tracking Preference Expression / Do Not Track"
+  ],
+  "requirements": [
+    "Document whether DNT is accepted, ignored, logged, or evaluated.",
+    "Preserve DNT signal value, receipt surface, timestamp, and evaluated outcome when DNT is used.",
+    "Do not let DNT handling override newer signals unless an explicit precedence rule requires it."
+  ]
+}

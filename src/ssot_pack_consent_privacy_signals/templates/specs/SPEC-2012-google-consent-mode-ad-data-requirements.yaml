@@ -1,0 +1,21 @@
+{
+  "id": "spc:google-consent-mode-ad-data-requirements",
+  "number": 2012,
+  "slug": "google-consent-mode-ad-data-requirements",
+  "title": "Google Consent Mode Ad Data Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:google-consent-mode-policy"
+  ],
+  "authority_sources": [
+    "Google Consent Mode"
+  ],
+  "requirements": [
+    "Represent ad_user_data and ad_personalization states separately.",
+    "Preserve default value, updated value, source, timestamp, and affected ad-data surface for each key.",
+    "Define behavior when ad-data consent conflicts with storage consent or upstream privacy signals."
+  ]
+}

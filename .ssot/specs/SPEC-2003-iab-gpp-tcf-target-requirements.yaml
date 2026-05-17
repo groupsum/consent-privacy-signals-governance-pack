@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2003"
+number: 2003
+slug: "iab-gpp-tcf-target-requirements"
+title: "IAB GPP TCF Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating IAB GPP and TCF encoded-string targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating IAB GPP and TCF encoded-string targets.
+  
+  ## Requirements
+  
+  - IAB GPP targets MUST identify encoded string capture, validation, version, section identity, jurisdiction applicability, decoded fields, and evaluated outcome where applicable.
+  - IAB TCF targets MUST identify encoded string capture, validation, version, purpose consent, legitimate interest, vendor consent, special purpose, special feature, and vendor-list context where applicable.
+  - IAB targets MUST preserve framework and section context before translation into local consent-state outputs.
+  - IAB targets MUST remain separate from GPC, DNT, and Google Consent Mode targets unless explicit translation or precedence targets are curated.
+  
+  ## Authority Sources
+  
+  - IAB Tech Lab Global Privacy Platform.
+  - IAB Europe Transparency and Consent Framework.
+spec_kind: "normative"

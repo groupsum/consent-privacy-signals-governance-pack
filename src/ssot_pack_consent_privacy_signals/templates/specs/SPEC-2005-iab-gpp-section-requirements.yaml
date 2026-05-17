@@ -1,0 +1,22 @@
+{
+  "id": "spc:iab-gpp-section-requirements",
+  "number": 2005,
+  "slug": "iab-gpp-section-requirements",
+  "title": "IAB GPP Section Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iab-gpp-policy",
+    "adr:consent-signal-jurisdiction-policy"
+  ],
+  "authority_sources": [
+    "IAB Tech Lab Global Privacy Platform"
+  ],
+  "requirements": [
+    "Identify and preserve applicable GPP sections before evaluation.",
+    "Document section selection, jurisdiction applicability, fallback behavior, and section-specific decoded fields.",
+    "Keep GPP section outcomes distinct from TCF, GPC, DNT, and Consent Mode outcomes."
+  ]
+}

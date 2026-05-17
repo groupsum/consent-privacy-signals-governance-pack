@@ -1,0 +1,22 @@
+{
+  "id": "spc:google-consent-mode-default-requirements",
+  "number": 2009,
+  "slug": "google-consent-mode-default-requirements",
+  "title": "Google Consent Mode Default Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:google-consent-mode-policy",
+    "adr:consent-default-update-policy"
+  ],
+  "authority_sources": [
+    "Google Consent Mode"
+  ],
+  "requirements": [
+    "Initialize Google Consent Mode defaults before dependent tag behavior where applicable.",
+    "Preserve default consent-state values, initialization time, source, and affected keys.",
+    "Define behavior when default state is absent or initialized after tags load."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "spc:iab-tcf-special-feature-requirements",
+  "number": 2008,
+  "slug": "iab-tcf-special-feature-requirements",
+  "title": "IAB TCF Special Feature Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iab-tcf-policy"
+  ],
+  "authority_sources": [
+    "IAB Europe Transparency and Consent Framework"
+  ],
+  "requirements": [
+    "Preserve TCF special purpose and special feature states where evaluated.",
+    "Record special purpose or feature identifier, opt-in or applicability state, and evaluation outcome.",
+    "Keep special feature handling separate from ordinary purpose and vendor consent handling."
+  ]
+}

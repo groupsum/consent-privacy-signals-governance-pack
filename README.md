@@ -41,10 +41,22 @@ Consent And Privacy Signal Exchange
 
 ## Included SPECs
 
-- `spc:gpc-signal-contract` - GPC Signal Contract
-- `spc:iab-gpp-tcf-contract` - IAB GPP TCF Contract
-- `spc:google-consent-mode-contract` - Google Consent Mode Contract
-- `spc:consent-precedence-evaluation-contract` - Consent Precedence Evaluation Contract
+- `spc:gpc-http-signal-requirements` - GPC HTTP Signal Requirements
+- `spc:gpc-javascript-signal-requirements` - GPC JavaScript Signal Requirements
+- `spc:dnt-signal-requirements` - DNT Signal Requirements
+- `spc:iab-gpp-string-requirements` - IAB GPP String Requirements
+- `spc:iab-gpp-section-requirements` - IAB GPP Section Requirements
+- `spc:iab-tcf-purpose-requirements` - IAB TCF Purpose Requirements
+- `spc:iab-tcf-vendor-requirements` - IAB TCF Vendor Requirements
+- `spc:iab-tcf-special-feature-requirements` - IAB TCF Special Feature Requirements
+- `spc:google-consent-mode-default-requirements` - Google Consent Mode Default Requirements
+- `spc:google-consent-mode-update-requirements` - Google Consent Mode Update Requirements
+- `spc:google-consent-mode-storage-requirements` - Google Consent Mode Storage Requirements
+- `spc:google-consent-mode-ad-data-requirements` - Google Consent Mode Ad Data Requirements
+- `spc:consent-signal-precedence-requirements` - Consent Signal Precedence Requirements
+- `spc:consent-signal-evidence-requirements` - Consent Signal Evidence Requirements
+- `spc:consent-signal-jurisdiction-requirements` - Consent Signal Jurisdiction Requirements
+- `spc:consent-signal-export-requirements` - Consent Signal Export Requirements
 
 ## Install With uv
 

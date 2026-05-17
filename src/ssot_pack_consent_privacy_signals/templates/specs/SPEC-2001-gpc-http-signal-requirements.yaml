@@ -1,0 +1,21 @@
+{
+  "id": "spc:gpc-http-signal-requirements",
+  "number": 2001,
+  "slug": "gpc-http-signal-requirements",
+  "title": "GPC HTTP Signal Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:gpc-signal-policy"
+  ],
+  "authority_sources": [
+    "Global Privacy Control"
+  ],
+  "requirements": [
+    "Detect and preserve GPC request-surface signal receipt where supported.",
+    "Record signal value, receipt time, request context, and evaluated outcome when GPC affects downstream behavior.",
+    "Keep GPC HTTP signal handling separate from encoded consent-string decoding and Google Consent Mode updates."
+  ]
+}

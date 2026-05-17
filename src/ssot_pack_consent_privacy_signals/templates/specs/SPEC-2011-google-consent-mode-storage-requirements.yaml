@@ -1,0 +1,21 @@
+{
+  "id": "spc:google-consent-mode-storage-requirements",
+  "number": 2011,
+  "slug": "google-consent-mode-storage-requirements",
+  "title": "Google Consent Mode Storage Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:google-consent-mode-policy"
+  ],
+  "authority_sources": [
+    "Google Consent Mode"
+  ],
+  "requirements": [
+    "Represent ad_storage and analytics_storage states separately.",
+    "Preserve default value, updated value, source, timestamp, and affected tag surface for each storage key.",
+    "Test behavior when one storage key is granted and another is denied."
+  ]
+}

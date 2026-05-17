@@ -1,0 +1,31 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2002"
+number: 2002
+slug: "gpc-target-requirements"
+title: "GPC Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating Global Privacy Control targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating Global Privacy Control targets.
+  
+  ## Requirements
+  
+  - GPC targets MUST be sourced from Global Privacy Control authority materials.
+  - GPC targets MUST distinguish HTTP/request signal receipt, browser JavaScript signal access, signal value, source surface, evaluation time, and evaluated outcome where applicable.
+  - GPC targets SHOULD preserve jurisdiction or policy applicability when the signal outcome depends on region or legal context.
+  - GPC targets MUST remain separate from encoded consent strings, Google Consent Mode consent states, and durable privacy governance records unless explicit mapping targets are curated.
+  
+  ## Authority Sources
+  
+  - Global Privacy Control.
+spec_kind: "normative"

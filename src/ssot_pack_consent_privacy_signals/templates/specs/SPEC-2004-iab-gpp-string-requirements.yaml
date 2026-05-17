@@ -1,0 +1,21 @@
+{
+  "id": "spc:iab-gpp-string-requirements",
+  "number": 2004,
+  "slug": "iab-gpp-string-requirements",
+  "title": "IAB GPP String Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iab-gpp-policy"
+  ],
+  "authority_sources": [
+    "IAB Tech Lab Global Privacy Platform"
+  ],
+  "requirements": [
+    "Capture, validate, and preserve the GPP string when it is received or stored.",
+    "Preserve GPP version, encoded value, decode result, validation result, and evaluation outcome where used.",
+    "Reject or quarantine malformed GPP strings according to documented downstream behavior."
+  ]
+}
