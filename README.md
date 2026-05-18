@@ -48,35 +48,35 @@ Consent And Privacy Signal Exchange
 
 ## Included ADRs
 
-- `adr:consent-signal-source-policy` - Consent Signal Source Policy
-- `adr:gpc-signal-policy` - GPC Signal Policy
-- `adr:dnt-signal-policy` - DNT Signal Policy
-- `adr:iab-gpp-policy` - IAB GPP Policy
-- `adr:iab-tcf-policy` - IAB TCF Policy
-- `adr:google-consent-mode-policy` - Google Consent Mode Policy
-- `adr:consent-default-update-policy` - Consent Default Update Policy
-- `adr:consent-precedence-policy` - Consent Precedence Policy
-- `adr:consent-signal-evidence-policy` - Consent Signal Evidence Policy
-- `adr:consent-signal-jurisdiction-policy` - Consent Signal Jurisdiction Policy
+- [`adr:consent-signal-source-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1001-consent-signal-source-policy.yaml) - Consent Signal Source Policy
+- [`adr:gpc-signal-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1002-gpc-signal-policy.yaml) - GPC Signal Policy
+- [`adr:dnt-signal-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1003-dnt-signal-policy.yaml) - DNT Signal Policy
+- [`adr:iab-gpp-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1004-iab-gpp-policy.yaml) - IAB GPP Policy
+- [`adr:iab-tcf-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1005-iab-tcf-policy.yaml) - IAB TCF Policy
+- [`adr:google-consent-mode-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1006-google-consent-mode-policy.yaml) - Google Consent Mode Policy
+- [`adr:consent-default-update-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1007-consent-default-update-policy.yaml) - Consent Default Update Policy
+- [`adr:consent-precedence-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1008-consent-precedence-policy.yaml) - Consent Precedence Policy
+- [`adr:consent-signal-evidence-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1009-consent-signal-evidence-policy.yaml) - Consent Signal Evidence Policy
+- [`adr:consent-signal-jurisdiction-policy`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/adr/ADR-1010-consent-signal-jurisdiction-policy.yaml) - Consent Signal Jurisdiction Policy
 
 ## Included SPECs
 
-- `spc:gpc-http-signal-requirements` - GPC HTTP Signal Requirements
-- `spc:gpc-javascript-signal-requirements` - GPC JavaScript Signal Requirements
-- `spc:dnt-signal-requirements` - DNT Signal Requirements
-- `spc:iab-gpp-string-requirements` - IAB GPP String Requirements
-- `spc:iab-gpp-section-requirements` - IAB GPP Section Requirements
-- `spc:iab-tcf-purpose-requirements` - IAB TCF Purpose Requirements
-- `spc:iab-tcf-vendor-requirements` - IAB TCF Vendor Requirements
-- `spc:iab-tcf-special-feature-requirements` - IAB TCF Special Feature Requirements
-- `spc:google-consent-mode-default-requirements` - Google Consent Mode Default Requirements
-- `spc:google-consent-mode-update-requirements` - Google Consent Mode Update Requirements
-- `spc:google-consent-mode-storage-requirements` - Google Consent Mode Storage Requirements
-- `spc:google-consent-mode-ad-data-requirements` - Google Consent Mode Ad Data Requirements
-- `spc:consent-signal-precedence-requirements` - Consent Signal Precedence Requirements
-- `spc:consent-signal-evidence-requirements` - Consent Signal Evidence Requirements
-- `spc:consent-signal-jurisdiction-requirements` - Consent Signal Jurisdiction Requirements
-- `spc:consent-signal-export-requirements` - Consent Signal Export Requirements
+- [`spc:gpc-http-signal-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2001-gpc-http-signal-requirements.yaml) - GPC HTTP Signal Requirements
+- [`spc:gpc-javascript-signal-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2002-gpc-javascript-signal-requirements.yaml) - GPC JavaScript Signal Requirements
+- [`spc:dnt-signal-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2003-dnt-signal-requirements.yaml) - DNT Signal Requirements
+- [`spc:iab-gpp-string-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2004-iab-gpp-string-requirements.yaml) - IAB GPP String Requirements
+- [`spc:iab-gpp-section-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2005-iab-gpp-section-requirements.yaml) - IAB GPP Section Requirements
+- [`spc:iab-tcf-purpose-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2006-iab-tcf-purpose-requirements.yaml) - IAB TCF Purpose Requirements
+- [`spc:iab-tcf-vendor-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2007-iab-tcf-vendor-requirements.yaml) - IAB TCF Vendor Requirements
+- [`spc:iab-tcf-special-feature-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2008-iab-tcf-special-feature-requirements.yaml) - IAB TCF Special Feature Requirements
+- [`spc:google-consent-mode-default-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2009-google-consent-mode-default-requirements.yaml) - Google Consent Mode Default Requirements
+- [`spc:google-consent-mode-update-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2010-google-consent-mode-update-requirements.yaml) - Google Consent Mode Update Requirements
+- [`spc:google-consent-mode-storage-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2011-google-consent-mode-storage-requirements.yaml) - Google Consent Mode Storage Requirements
+- [`spc:google-consent-mode-ad-data-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2012-google-consent-mode-ad-data-requirements.yaml) - Google Consent Mode Ad Data Requirements
+- [`spc:consent-signal-precedence-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2013-consent-signal-precedence-requirements.yaml) - Consent Signal Precedence Requirements
+- [`spc:consent-signal-evidence-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2014-consent-signal-evidence-requirements.yaml) - Consent Signal Evidence Requirements
+- [`spc:consent-signal-jurisdiction-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2015-consent-signal-jurisdiction-requirements.yaml) - Consent Signal Jurisdiction Requirements
+- [`spc:consent-signal-export-requirements`](https://github.com/groupsum/consent-privacy-signals-governance-pack/blob/master/src/ssot_pack_consent_privacy_signals/templates/specs/SPEC-2016-consent-signal-export-requirements.yaml) - Consent Signal Export Requirements
 
 ## Install With uv
 
