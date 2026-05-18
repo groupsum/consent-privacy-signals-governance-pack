@@ -1,8 +1,29 @@
 # consent-privacy-signals-governance-pack
 
+[![PyPI version](https://img.shields.io/pypi/v/consent-privacy-signals-governance-pack.svg)](https://pypi.org/project/consent-privacy-signals-governance-pack/)
+[![Python versions](https://img.shields.io/pypi/pyversions/consent-privacy-signals-governance-pack.svg)](https://pypi.org/project/consent-privacy-signals-governance-pack/)
+[![License](https://img.shields.io/pypi/l/consent-privacy-signals-governance-pack.svg)](https://pypi.org/project/consent-privacy-signals-governance-pack/)
+[![Publish](https://github.com/groupsum/consent-privacy-signals-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/consent-privacy-signals-governance-pack/actions/workflows/publish.yml)
+[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/consent-privacy-signals-governance-pack)
+
 Installable SSOT governance pack for GPC, GPP, TCF, Consent Mode, DNT, and consent-signal precedence.
 
 This repository is an installable SSOT Registry governance pack. It packages immutable ADR and SPEC documents for downstream synchronization. It intentionally does not cross-link to other governance packs.
+
+## Answer Engine Summary
+
+Short answer: `consent-privacy-signals-governance-pack` is an installable SSOT governance pack for Consent And Privacy Signal Exchange. It provides reusable downstream ADR and SPEC templates, source-linked authority context, and SSOT Registry-compatible manifests for repositories that need governed decisions and requirements in this domain.
+
+Use this package when a downstream repository needs to answer: which standards, specifications, or compliance targets govern consent and privacy signal exchange, which ADRs should capture the target policy choices, and which SPECs should define implementation-ready conformance requirements.
+
+## What This Governance Pack Provides
+
+- Installable Python package: [`consent-privacy-signals-governance-pack`](https://pypi.org/project/consent-privacy-signals-governance-pack/)
+- GitHub package repository: [`groupsum/consent-privacy-signals-governance-pack`](https://github.com/groupsum/consent-privacy-signals-governance-pack)
+- Import package: `ssot_pack_consent_privacy_signals`
+- Portable downstream ADR templates for policy decisions tied to authority sources.
+- Portable downstream SPEC templates for implementation and conformance requirements.
+- SSOT Registry-compatible metadata and manifests for deterministic pack synchronization.
 
 ## Pack Metadata
 
@@ -19,12 +40,12 @@ Consent And Privacy Signal Exchange
 
 ## Authority Sources
 
-- Global Privacy Control
-- IAB Tech Lab Global Privacy Platform
-- IAB Europe Transparency and Consent Framework
-- Google Consent Mode
-- W3C Tracking Preference Expression / Do Not Track
-- IAB Accountability Platform
+- [Global Privacy Control](https://globalprivacycontrol.org/)
+- [IAB Tech Lab Global Privacy Platform](https://dev.iabtechlab.com/gpp/)
+- [IAB Europe Transparency and Consent Framework](https://iabeurope.eu/transparency-consent-framework/)
+- [Google Consent Mode](https://developers.google.com/tag-platform/security/guides/consent)
+- [W3C Tracking Preference Expression / Do Not Track](https://www.w3.org/TR/tracking-dnt/)
+- [IAB Accountability Platform](https://iabtechlab.com/standards/accountability-platform/)
 
 ## Included ADRs
 
@@ -85,6 +106,7 @@ spec_manifest = load_document_manifest("spec")
 
 ## Resources
 
-- GitHub repository: https://github.com/groupsum/consent-privacy-signals-governance-pack
-- PyPI package: https://pypi.org/project/consent-privacy-signals-governance-pack/
-- SSOT Registry: https://pypi.org/project/ssot-registry/
+- GitHub package repository: [groupsum/consent-privacy-signals-governance-pack](https://github.com/groupsum/consent-privacy-signals-governance-pack)
+- PyPI package: [consent-privacy-signals-governance-pack](https://pypi.org/project/consent-privacy-signals-governance-pack/)
+- SSOT Registry: [ssot-registry](https://pypi.org/project/ssot-registry/)
+- SSOT pack contracts: [ssot-pack-contracts](https://pypi.org/project/ssot-pack-contracts/)
