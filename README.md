@@ -1,10 +1,13 @@
+<div align="center">
+
 # consent-privacy-signals-governance-pack
 
 [![PyPI version](https://img.shields.io/pypi/v/consent-privacy-signals-governance-pack.svg)](https://pypi.org/project/consent-privacy-signals-governance-pack/)
 [![Python versions](https://img.shields.io/pypi/pyversions/consent-privacy-signals-governance-pack.svg)](https://pypi.org/project/consent-privacy-signals-governance-pack/)
 [![License](https://img.shields.io/pypi/l/consent-privacy-signals-governance-pack.svg)](https://pypi.org/project/consent-privacy-signals-governance-pack/)
 [![Publish](https://github.com/groupsum/consent-privacy-signals-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/consent-privacy-signals-governance-pack/actions/workflows/publish.yml)
-[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/consent-privacy-signals-governance-pack)
+
+</div>
 
 Installable SSOT governance pack for GPC, GPP, TCF, Consent Mode, DNT, and consent-signal precedence.
 
