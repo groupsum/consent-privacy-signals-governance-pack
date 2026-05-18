@@ -33,7 +33,7 @@ Use this package when a downstream repository needs to answer: which standards, 
 - Pack ID: `pack:consent-privacy-signals`
 - PyPI package: `consent-privacy-signals-governance-pack`
 - Import package: `ssot_pack_consent_privacy_signals`
-- GitHub repository: `groupsum/consent-privacy-signals-governance-pack`
+- GitHub repository: [groupsum/consent-privacy-signals-governance-pack](https://github.com/groupsum/consent-privacy-signals-governance-pack)
 - Reservation owner: `extension-pack:consent-privacy-signals-governance-pack`
 
 ## Domain Focus
