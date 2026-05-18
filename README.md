@@ -28,7 +28,6 @@ Use this package when a downstream repository needs to answer: which standards, 
 ## Pack Metadata
 
 - Pack ID: `pack:consent-privacy-signals`
-- Priority: `P0.2`
 - PyPI package: `consent-privacy-signals-governance-pack`
 - Import package: `ssot_pack_consent_privacy_signals`
 - GitHub repository: `groupsum/consent-privacy-signals-governance-pack`
