@@ -1,4 +1,4 @@
-# ssot-pack-consent-privacy-signals
+# consent-privacy-signals-governance-pack
 
 Installable SSOT governance pack for GPC, GPP, TCF, Consent Mode, DNT, and consent-signal precedence.
 
@@ -8,10 +8,10 @@ This repository is an installable SSOT Registry governance pack. It packages imm
 
 - Pack ID: `pack:consent-privacy-signals`
 - Priority: `P0.2`
-- PyPI package: `ssot-pack-consent-privacy-signals`
+- PyPI package: `consent-privacy-signals-governance-pack`
 - Import package: `ssot_pack_consent_privacy_signals`
 - GitHub repository: `groupsum/consent-privacy-signals-governance-pack`
-- Reservation owner: `extension-pack:ssot-pack-consent-privacy-signals`
+- Reservation owner: `extension-pack:consent-privacy-signals-governance-pack`
 
 ## Domain Focus
 
@@ -61,15 +61,15 @@ Consent And Privacy Signal Exchange
 ## Install With uv
 
 ```bash
-uv add ssot-pack-consent-privacy-signals
-uv add ssot-registry ssot-pack-consent-privacy-signals
+uv add consent-privacy-signals-governance-pack
+uv add ssot-registry consent-privacy-signals-governance-pack
 ```
 
 ## Use With The SSOT Registry CLI
 
 ```bash
-uvx --from ssot-registry ssot pack install ssot-pack-consent-privacy-signals
-uvx --from ssot-registry ssot pack sync . ssot-pack-consent-privacy-signals
+uvx --from ssot-registry ssot pack install consent-privacy-signals-governance-pack
+uvx --from ssot-registry ssot pack sync . consent-privacy-signals-governance-pack
 uv run ssot adr list .
 uv run ssot spec list .
 ```
@@ -86,5 +86,5 @@ spec_manifest = load_document_manifest("spec")
 ## Resources
 
 - GitHub repository: https://github.com/groupsum/consent-privacy-signals-governance-pack
-- PyPI package: https://pypi.org/project/ssot-pack-consent-privacy-signals/
+- PyPI package: https://pypi.org/project/consent-privacy-signals-governance-pack/
 - SSOT Registry: https://pypi.org/project/ssot-registry/

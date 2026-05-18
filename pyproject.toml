@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ssot-pack-consent-privacy-signals"
+name = "consent-privacy-signals-governance-pack"
 version = "0.1.0"
 description = "Installable SSOT governance pack for GPC, GPP, TCF, Consent Mode, DNT, and consent-signal precedence."
 readme = "README.md"
@@ -44,9 +44,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/groupsum/ssot-pack-consent-privacy-signals"
-Repository = "https://github.com/groupsum/ssot-pack-consent-privacy-signals"
-Issues = "https://github.com/groupsum/ssot-pack-consent-privacy-signals/issues"
+Homepage = "https://github.com/groupsum/consent-privacy-signals-governance-pack"
+Repository = "https://github.com/groupsum/consent-privacy-signals-governance-pack"
+Issues = "https://github.com/groupsum/consent-privacy-signals-governance-pack/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
