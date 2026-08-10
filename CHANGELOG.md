@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0.dev1
+
+- Declared canonical Consent Mode state ownership relative to Google tagging.
+
 ## 0.1.1.dev1
 
 - Pending release notes.

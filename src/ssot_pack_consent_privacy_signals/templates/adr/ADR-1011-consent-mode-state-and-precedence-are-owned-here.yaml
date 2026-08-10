@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:consent-mode-state-and-precedence-are-owned-here",
+  "number": 1011,
+  "slug": "consent-mode-state-and-precedence-are-owned-here",
+  "title": "Consent Mode State And Precedence Are Owned Here",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Consent Mode state, lifecycle, and precedence have one canonical owner.",
+  "body": "Consent governance owns signal semantics, defaults, updates, precedence, jurisdiction, evidence, and resolved state. Google tagging consumes that state through an application profile.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://developers.google.com/tag-platform/security/guides/consent"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "consent",
+    "mode",
+    "state",
+    "and",
+    "precedence",
+    "are",
+    "owned",
+    "here"
+  ]
+}
